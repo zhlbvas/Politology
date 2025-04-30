@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная карта Казахстана</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Интерактивная карта Казахстана</h1>
+    
+    <div class="map-container">
+        <object id="world-map" type="image/svg+xml" data="world-map.svg"></object>
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="news-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="region-title"></h2>
+            <div class="news-container">
+                <div id="news-list"></div>
+            </div>
+        </div>
+    </div>
+<a href="main.html" class="btn">Назад</a>
+    <script src="script.js"></script>
+    
+</body>
+</html>
